@@ -1,5 +1,22 @@
-#logo
-{
-    font-size: 0.8;
-}
+body{
+    margin: 5% ;
 
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display:flex;
+    list-style: none;
+}
+nav li {
+    margin:0 10px 0 10px ;
+}
+.hébergement :{
+    font-family: 'Raleway medium', arial;
+    color: #0065FC;
+    border-top: 3px #0065FC solid;
+    
+}
