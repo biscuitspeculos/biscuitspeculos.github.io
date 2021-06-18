@@ -1,5 +1,7 @@
 body{
-    margin: 5% ;
+    margin: 0 40px 0 40px  ;
+    
+    
 
 }
 nav{
@@ -10,13 +12,40 @@ nav{
 nav ul {
     display:flex;
     list-style: none;
+    align-items: center;
 }
 nav li {
-    margin:0 10px 0 10px ;
-}
-.hébergement :{
+    margin: 0 10px 0 10px ;
+     
+}   
+.hébergement {
     font-family: 'Raleway medium', arial;
     color: #0065FC;
-    border-top: 3px #0065FC solid;
+   
+}
+
+.activité{
+    font-family: 'raleway medium', arial ;
+   
     
+
+}
+.inscrire{
+    font-family: 'raleway medium', arial ;
+    font-weight: bold;
+    
+    color:#0065FC
+    
+}
+body .hébergement {
+    border-top: 2px  #0065FC solid ;
+    
+
+}
+h1{
+    font-family:'raleway medium', arial ;
+}
+
+p{
+    font-family:'raleway medium', arial ;
 }
