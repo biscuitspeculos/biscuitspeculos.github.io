@@ -1,7 +1,5 @@
 body{
-    margin: 0 40px 0 40px  ;
-    
-    
+    margin: 0 40px 0 40px 
 
 }
 nav{
@@ -28,12 +26,10 @@ nav li {
     font-family: 'raleway medium', arial ;
    
     
-
 }
 .inscrire{
     font-family: 'raleway medium', arial ;
     font-weight: bold;
-    
     color:#0065FC
     
 }
@@ -49,3 +45,125 @@ h1{
 p{
     font-family:'raleway medium', arial ;
 }
+section ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+    
+
+.marqueur{
+    border:1px solid white;
+    height:30px;
+    width:40px;
+    border-radius: 7px 0 0 7px;
+    background: grey;
+    padding-bottom: 10px;
+}
+.ville{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 50px;
+    border:1px solid white;
+    font-family:'raleway medium, arial' ;
+    font-weight: bold;
+}
+.moteur{
+    border:1px solid white;
+    padding: 11px 5px 11px 5px;
+    border-radius:0 7px 7px 0 ;
+    color:white;
+    background:#0065FC;
+    font-family: 'raleway medium, arial' ;
+    font-weight: bold;
+
+}
+
+
+   
+
+.economie img {
+   position:absolute ;
+   top:15px;
+   bottom:15px;
+   left:15px;
+   right:15px;
+   border-radius:50px;
+   filter:invert(23%) sepia(100%) saturate(3565%) hue-rotate(211deg) brightness(102%) contrast(101%);
+   background:whitesmoke;
+   
+}
+
+.economie {
+    position: relative;
+    border:1px none;
+    width:40px;
+    height:40px;
+    border-radius: 50px;
+    background: aqua;
+    
+} 
+.eco{
+    font-family: 'raleway medium arial';
+    font-weight: bold;
+    font-size: 1.2em;
+    border-width: 2px 2px 2px 0px;
+    border-style: solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: grey;
+    text-align: justify;
+   
+    width: 120px;
+    height: 40px;
+} 
+.famille{
+    
+    border-width: 2px 2px 2px 1px;
+    border-style:solid solid solid none ;
+    border-color: grey;
+    width: 120px;
+    height: 40px;
+}
+.famille img{
+    float: left;
+    border:1px none;
+    width:12;
+    height:20px;
+    border-radius: 20px;
+    background: lightcoral;
+}
+
+  .section-1{
+    border-style: none;
+    width: 875px;
+    height:800px;
+    border-radius: 10px;
+    background:grey ;
+    display: flex;
+
+    }
+
+
+ .chambre-1 img{
+    border:1px none;
+    height: 120px;
+    width: 230px;
+    border-radius: 10px 10px 0 0;
+}
+ .chambre-2 img {
+     border:1px none;
+     height: 120px;
+    width: 230px;
+    border-radius: 10px 10px 0 0;
+ }  
+ .chambre-3 img{
+    border:1px none;
+    height: 120px;
+    width: 230px;
+    border-radius: 10px 10px 0 0;
+
+ }
+    
